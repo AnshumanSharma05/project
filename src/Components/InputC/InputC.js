@@ -15,9 +15,9 @@ const InputC =()=>{
 
 		   	<div>
 		   	<fieldset>
-		        <legend for="2119847547">{"Job Description"}</legend>
-		        <div class="form-group">
-		        <textarea id="1785418693" name="entry.1785418693" class="form-control" ></textarea>
+		        <legend htmlFor="2119847547">{"Job Description"}</legend>
+		        <div className="form-group">
+		        <textarea id="1785418693" className="entry.1785418693" class="form-control" ></textarea>
 		        </div>
 		    </fieldset>	
 		    </div>
@@ -25,8 +25,8 @@ const InputC =()=>{
 
 		    <div>
 		    <fieldset>
-		        <legend for="32658343">{"SKILLS/ COMPETENCY IN &amp; GAP ANALYSIS"}</legend>
-		        <div class="form-group">
+		        <legend htmlFor="32658343">{"SKILLS/ COMPETENCY IN &amp; GAP ANALYSIS"}</legend>
+		        <div className="form-group">
 		        </div>
 		    </fieldset>
 		    </div>
@@ -46,8 +46,8 @@ const InputC =()=>{
 		    <div>
 		    <fieldset>
 		        <legend for="928208589">Educational Qualification of the Employee</legend>
-		        <div class="form-group">
-		            <textarea id="833774299" name="entry.833774299" class="form-control" ></textarea>
+		        <div className="form-group">
+		            <textarea id="833774299" className="entry.833774299" class="form-control" ></textarea>
 		        </div>
 		    </fieldset>
 		    </div>
@@ -55,8 +55,8 @@ const InputC =()=>{
 		    <div>
 		    <fieldset>
 		        <legend for="1242657202">Gaps as identified by the Sec/Dept/Div Head</legend>
-		        <div class="form-group">
-		            <textarea id="1626480489" name="entry.1626480489" class="form-control" ></textarea>
+		        <div className="form-group">
+		            <textarea id="1626480489" className="entry.1626480489" class="form-control" ></textarea>
 		        </div>
 		    </fieldset>
 		    </div>
@@ -64,8 +64,8 @@ const InputC =()=>{
 		    <div>
 		    
 		    <fieldset>
-		        <legend for="1206530503">TECHNICAL SKILLS</legend>
-		        <div class="form-group">
+		        <legend htmlFor="1206530503">TECHNICAL SKILLS</legend>
+		        <div className="form-group">
 		        </div>
 		    </fieldset>
 		    </div>
@@ -73,7 +73,7 @@ const InputC =()=>{
 
 		    <div>
 		    <fieldset>
-		        <legend className="f3" for="924315930">Technical skill/ competency needed for the job as identified by sec / dept / div head.(Please select)</legend>
+		        <legend className="f3" htmlFor="924315930">Technical skill/ competency needed for the job as identified by sec / dept / div head.(Please select)</legend>
 		        <div class="form-group f3">
 		            <div>
 		                <span>{"EMS (ISO 14001:2015)-BASIC:" }</span>
@@ -100,7 +100,7 @@ const InputC =()=>{
 		            </div>
 		            <div>
 		                <span>{"AS 9100 D-Basic: "}</span>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1267702132" value="5" />
 		                    5
 		                </label>
@@ -108,7 +108,7 @@ const InputC =()=>{
 		                    <input type="radio" name="entry.1267702132" value="4" />
 		                    4
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1267702132" value="3" />
 		                    3
 		                </label>
@@ -116,53 +116,53 @@ const InputC =()=>{
 		                    <input type="radio" name="entry.1267702132" value="2" />
 		                    2
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1267702132" value="1" />
 		                    1
 		                </label>
 		            </div>
 		            <div>
 		                <span>{"Counterfeit items: "}</span>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1860036397" value="5" />
 		                    5
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1860036397" value="4" />
 		                    4
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1860036397" value="3" />
 		                    3
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1860036397" value="2" />
 		                    2
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.1860036397" value="1" />
 		                    1
 		                </label>
 		            </div>
 		            <div>
 		                <span>{"SAP: "}</span>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.969646916" value="5" />
 		                    5
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.969646916" value="4" />
 		                    4
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.969646916" value="3" />
 		                    3
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.969646916" value="2" />
 		                    2
 		                </label>
-		                <label class="radio-inline">
+		                <label className="radio-inline">
 		                    <input type="radio" name="entry.969646916" value="1" />
 		                    1
 		                </label>

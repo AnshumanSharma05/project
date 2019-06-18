@@ -26,9 +26,35 @@ class App extends Component {
     super();
     this.state={
       route:'signin',
-      isSignedIn:false
+      isSignedIn:false,
+      user:{
+        
+        id:'',
+        name:"",
+        email:"",
+       
+        
+        joined:" "
+
+      }
     }
   }
+
+  loadUser=(data)=>{
+    this.setState({
+      user:{
+      id:data.id,
+      name:data.name,
+      email:data.email,
+       
+        
+      joined:data.joined
+
+    }})
+  }
+
+  
+  
 
   onRouteChange=(route)=>{
     if(route==='signout'){
@@ -59,7 +85,7 @@ class App extends Component {
           <Logo2/>
           <Signin onRouteChange={this.onRouteChange}/>
           </div>
-          : <Register onRouteChange={this.onRouteChange}/>
+          : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
           )
       }
       </div>
